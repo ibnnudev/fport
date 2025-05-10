@@ -3,16 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowUpRight, FileWarning, Lock } from "lucide-react";
-
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { LinkPreview } from "@/components/ui/link-preview";
+import { ArrowUpRight, FileWarning, Lock } from "lucide-react";
 
 export default function Portfolio({
   portfolios,
@@ -104,7 +95,7 @@ export default function Portfolio({
             Portfolio Projects
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-lg mx-auto">
-            Selection of projects I've worked on throughout my professional
+            Selection of projects I&apos;ve worked on throughout my professional
             career
           </p>
         </div>

@@ -1,24 +1,3 @@
-import { ProjectInterface } from "../_component/project";
-
-// export const projects: ProjectInterface[] = [
-// {
-//   title: "BEE POS",
-//   category: "Website",
-//   image:
-//     "https://i0.wp.com/blog.dealpos.com/wp-content/uploads/2022/02/point-of-sale-banner-edited.jpg?fit=1919%2C1080&ssl=1",
-//   skills: ["React JS", "Tailwind CSS", "TypeScript"],
-//   link: "https://dapurmami.com",
-// },
-// {
-//   title: "Smart POS",
-//   category: "Multi Platform",
-//   image:
-//     "https://poscambodia.com/sites/default/files/gallery/Innovative%20Img/Pos-img-sys.png",
-//   skills: ["React JS", "TypeScript", "Swift"],
-//   link: "https://smartpos.com",
-// },
-// ];
-
 export const skills = [
   "React JS",
   "Tailwind CSS",
